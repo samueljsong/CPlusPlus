@@ -1,11 +1,11 @@
 #include <iostream>
 
 /*
-    int:    datatype can only store whole numbers.
-    double: number including decimals.
-    char:   single character
-    boolean: true or false
-    string: object that represents a sequence of text
+    int:    datatype can only store whole numbers.      |
+    double: number including decimals.                  |
+    char:   single character                            |
+    boolean: true or false                              |
+    string: object that represents a sequence of text   |
 */
 int main () {
 
