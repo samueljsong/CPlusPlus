@@ -67,6 +67,12 @@ int main () {
 
     int mood[5] = {12, 1, 3};   // The other 2 will be initialized to 0.
 
+    // Const will make this unmodifiable. || in c++ immutability is primarily achieved through const-correctness
+    const char name[3] = {'s', 'a', 'm'};
+
+    // Declare and initialize array without telling it size
+    int scores[] {10,11,2,3,14,5}; // tells the compiler to figure out how big of space you need.
+
     return 0;
 }
 

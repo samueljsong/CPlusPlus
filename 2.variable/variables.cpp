@@ -58,5 +58,16 @@ int main () {
     std::cout << "Hello " << name << '\n';
     std::cout << "you are " << age << " years old!" << std::endl;
 
+    //New c++ feature for declaring and initializing variables
+
+    /**
+     * Braced initialization
+     * - does not allow narrowing: data loss / conversion
+     * - behaves similar to typesafe 
+     */
+
+    int sumX {3.14}; // This will Error - (narrowing conversion double -> int)
+    int sumY = 3.14; // Where this would silently become a 3. 
+
     return 0;
 }
