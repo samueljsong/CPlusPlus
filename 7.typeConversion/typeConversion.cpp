@@ -20,5 +20,10 @@ int main() {
 
     std::cout << "%" << percentage << std::endl;
 
+    double a = 12.00;
+    int b = 5;
+  
+    std::cout << "This will automatically convert to double: " << a / b << '\n';
+
     return 0;
 }
