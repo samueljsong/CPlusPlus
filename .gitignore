@@ -1,3 +1,2 @@
-main
-*.out
-*.exe
+bin
+.vscode
